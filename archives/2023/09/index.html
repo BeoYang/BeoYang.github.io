@@ -1,28 +1,34 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn,en,default">
     
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hexo">
-    <title>Archives: 2023/9 - Hexo</title>
-    <meta name="author" content="John Doe">
+    <meta name="generator" content="Go Further">
+    <title>归档: 2023/9 - Go Further</title>
+    <meta name="author" content="ChariesYang">
     
+    
+        <link rel="icon" href="http://example.com/assets/images/bitbug_favicon.ico">
     
     
     <script type="application/ld+json">{}</script>
-    <meta property="og:type" content="blog">
-<meta property="og:title" content="Hexo">
+    <meta name="description" content="Stay Hungry, Stay Foolish">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Go Further">
 <meta property="og:url" content="http://example.com/archives/2023/09/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:site_name" content="Go Further">
+<meta property="og:description" content="Stay Hungry, Stay Foolish">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="ChariesYang">
 <meta name="twitter:card" content="summary">
     
     
         
     
+    
+        <meta property="og:image" content="http://example.com/assets/images/avatar.jpg"/>
     
     
     
@@ -44,9 +50,7 @@
             <!-- Define author's picture -->
 
 
-    
-
-<header id="header" data-behavior="1">
+<header id="header" data-behavior="2">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <div class="header-title">
         <a
@@ -54,17 +58,19 @@
             href="/"
             aria-label=""
         >
-            Hexo
+            Go Further
         </a>
     </div>
     
         
             <a
-                class="header-right-picture "
+                class="header-right-icon "
                 href="#about"
-                aria-label="Open the link: /#about"
+                aria-label="打开链接: /#about"
             >
         
+        
+            <i class="bitbug_favicon.ico fa-lg"></i>
         
         </a>
     
@@ -73,8 +79,26 @@
             <!-- Define author's picture -->
 
 
-<nav id="sidebar" data-behavior="1">
+
+        
+    
+
+<nav id="sidebar" data-behavior="2">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a
+                    href="/#about"
+                    aria-label="阅读有关作者的更多信息"
+                >
+                    <img class="sidebar-profile-picture" src="/assets/images/avatar.jpg" alt="作者的图片"/>
+                </a>
+                <h4 class="sidebar-profile-name">ChariesYang</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -86,10 +110,10 @@
                             href="/"
                             
                             rel="noopener"
-                            title="Home"
+                            title="首页"
                         >
                         <i class="sidebar-button-icon fa fa-home" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Home</span>
+                        <span class="sidebar-button-desc">首页</span>
                     </a>
             </li>
             
@@ -100,10 +124,10 @@
                             href="/all-categories"
                             
                             rel="noopener"
-                            title="Categories"
+                            title="分类"
                         >
                         <i class="sidebar-button-icon fa fa-bookmark" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Categories</span>
+                        <span class="sidebar-button-desc">分类</span>
                     </a>
             </li>
             
@@ -114,10 +138,10 @@
                             href="/all-tags"
                             
                             rel="noopener"
-                            title="Tags"
+                            title="标签"
                         >
                         <i class="sidebar-button-icon fa fa-tags" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Tags</span>
+                        <span class="sidebar-button-desc">标签</span>
                     </a>
             </li>
             
@@ -128,44 +152,30 @@
                             href="/all-archives"
                             
                             rel="noopener"
-                            title="Archives"
+                            title="归档"
                         >
                         <i class="sidebar-button-icon fa fa-archive" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Archives</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link open-algolia-search"
-                            href="#search"
-                            
-                            rel="noopener"
-                            title="Search"
-                        >
-                        <i class="sidebar-button-icon fa fa-search" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Search</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="#about"
-                            
-                            rel="noopener"
-                            title="About"
-                        >
-                        <i class="sidebar-button-icon fa fa-question" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">About</span>
+                        <span class="sidebar-button-desc">归档</span>
                     </a>
             </li>
             
         </ul>
         
             <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/mailto"
+                            
+                            rel="noopener"
+                            title="yxbzxn159@163.com"
+                        >
+                        <i class="sidebar-button-icon fa fa-envelope" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">yxbzxn159@163.com</span>
+                    </a>
+            </li>
             
                 <li class="sidebar-button">
                     
@@ -180,22 +190,6 @@
                         >
                         <i class="sidebar-button-icon fab fa-github" aria-hidden="true"></i>
                         <span class="sidebar-button-desc">GitHub</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="http://stackoverflow.com/users"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="Stack Overflow"
-                        >
-                        <i class="sidebar-button-icon fab fa-stack-overflow" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Stack Overflow</span>
                     </a>
             </li>
             
@@ -231,77 +225,13 @@
                     </a>
             </li>
             
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://plus.google.com/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="Google +"
-                        >
-                        <i class="sidebar-button-icon fab fa-google-plus" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Google +</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="https://www.linkedin.com/profile/"
-                            
-                                target="_blank"
-                            
-                            rel="noopener"
-                            title="LinkedIn"
-                        >
-                        <i class="sidebar-button-icon fab fa-linkedin" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">LinkedIn</span>
-                    </a>
-            </li>
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/mailto"
-                            
-                            rel="noopener"
-                            title="Mail"
-                        >
-                        <i class="sidebar-button-icon fa fa-envelope" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Mail</span>
-                    </a>
-            </li>
-            
-        </ul>
-        
-            <ul class="sidebar-buttons">
-            
-                <li class="sidebar-button">
-                    
-                        <a
-                            class="sidebar-button-link "
-                            href="/atom.xml"
-                            
-                            rel="noopener"
-                            title="RSS"
-                        >
-                        <i class="sidebar-button-icon fa fa-rss" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">RSS</span>
-                    </a>
-            </li>
-            
         </ul>
         
     </div>
 </nav>
 
             
-            <div id="main" data-behavior="1"
+            <div id="main" data-behavior="2"
                  class="
                         hasCoverMetaIn
                         ">
@@ -317,17 +247,17 @@
                     
                         <a
                             class="link-unstyled"
-                            href="/2023/09/24/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/"
-                            aria-label=": 博客简介"
+                            href="/2023/09/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"
+                            aria-label=": "
                         >
-                            博客简介
+                            (无标题)
                         </a>
                     
                 </h1>
                 <div class="postShorten-meta">
-    <time datetime="2023-09-24T13:05:33+08:00">
+    <time datetime="2023-09-24T16:44:48+08:00">
 	
-		    Sep 24, 2023
+		    2023 年 9 月 24 日
     	
     </time>
     
@@ -336,11 +266,8 @@
             </div>
             
                 <div class="postShorten-content">
-                    <h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><p>内容</p>
-<h2 id="第二篇文章"><a href="#第二篇文章" class="headerlink" title="第二篇文章"></a>第二篇文章</h2><p>内容</p>
-<hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>内容</p>
-
+                    <p>第二篇</p>
+<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2>
                     
                         
 
@@ -349,11 +276,11 @@
                     
                         <p>
                             <a
-                                href="/2023/09/24/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/#post-footer"
+                                href="/2023/09/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/#post-footer"
                                 class="postShorten-excerpt_link link"
                                 aria-label=""
                             >
-                                Comment and share
+                                评论和共享
                             </a>
                         </p>
                     
@@ -372,17 +299,17 @@
                     
                         <a
                             class="link-unstyled"
-                            href="/2023/09/24/hello-world/"
-                            aria-label=": Hello World"
+                            href="/2023/09/24/title/"
+                            aria-label=": "
                         >
-                            Hello World
+                            (无标题)
                         </a>
                     
                 </h1>
                 <div class="postShorten-meta">
-    <time datetime="2023-09-24T10:55:13+08:00">
+    <time datetime="2023-09-24T16:38:51+08:00">
 	
-		    Sep 24, 2023
+		    2023 年 9 月 24 日
     	
     </time>
     
@@ -391,20 +318,8 @@
             </div>
             
                 <div class="postShorten-content">
-                    <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+                    <p>title: 标题</p>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2>
                     
                         
 
@@ -413,11 +328,11 @@
                     
                         <p>
                             <a
-                                href="/2023/09/24/hello-world/#post-footer"
+                                href="/2023/09/24/title/#post-footer"
                                 class="postShorten-excerpt_link link"
                                 aria-label=""
                             >
-                                Comment and share
+                                评论和共享
                             </a>
                         </p>
                     
@@ -431,7 +346,7 @@
     <ul class="pagination">
         
         
-        <li class="pagination-number">page 1 of 1</li>
+        <li class="pagination-number">第 1 页 共 1 页</li>
     </ul>
 </div>
 
@@ -441,7 +356,7 @@
 
                 <footer id="footer" class="main-content-wrap">
     <span class="copyrights">
-        Copyrights &copy; 2023 John Doe. All Rights Reserved.
+        Copyrights &copy; 2023 ChariesYang. All Rights Reserved.
     </span>
 </footer>
 
@@ -451,13 +366,19 @@
         
 
 
+    
+        
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-times"></i>
         </div>
         
-            <h4 id="about-card-name">John Doe</h4>
+            <img id="about-card-picture" src="/assets/images/avatar.jpg" alt="作者的图片"/>
+        
+            <h4 id="about-card-name">ChariesYang</h4>
         
             <div id="about-card-bio"><p>author.bio</p>
 </div>
@@ -471,12 +392,18 @@
             </div>
         
         
+            <div id="about-card-location">
+                <i class="fa fa-map-marker-alt"></i>
+                <br/>
+                HangZhou, Zhejiang
+            </div>
+        
     </div>
 </div>
 
         
         
-<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+<div id="cover" style="background-image:url('/assets/images/bg2.jpg');"></div>
         <!--SCRIPTS-->
 
 <script src="/assets/js/script-gmvuygryicjopjzxhsxdcrrtzhd0lqvcy1rzja2hl90jwbixhkaktqavjtam.min.js"></script>
